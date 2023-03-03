@@ -1,0 +1,166 @@
+body {
+  margin: 0;
+}
+
+/* Estilos del NavBar */
+.navbar{
+  background-color: black;
+  margin: 0;
+  height: 9vh;
+}
+
+.navbar-links{
+  display: flex;
+  margin-left: 2em;
+}
+
+.navbar-links_routes{
+  line-height: 2.5em;
+  padding-left: 1em;
+}
+
+.navbar-brand{
+  color: white;
+}
+
+a{
+  margin-right: 10px;
+  text-decoration: none;
+  color: white;
+}
+a:nth-child(3){
+margin-right: 2em;
+}
+
+a:hover{
+  color: #5b9d97;
+  font-weight: bold;
+}
+
+img{
+  height: 2.5em;
+  margin-top: 1em;
+}
+
+/*  Estilos de Home Page */
+
+.container-one, .container-two{
+  width: 38vh;
+  margin-left: 2em;
+  text-align: justify;
+}
+
+.container-two{
+  margin-bottom: 16em;
+}
+.container_tittle-one, .container_tittle-two{
+  margin-bottom: 0.2em;
+  font-size: 2em;
+}
+
+.container_tittle-two{
+  font-size: 1.5em;
+  margin-top: 1.5em;
+}
+
+.container-three{
+  position: absolute;
+}
+
+.container-three_img-one, .container-three_img-two{
+  height: 15em;
+  position: relative;
+}
+
+.container-three_img-one{
+  z-index: 1;
+  top: 22em
+}
+
+.container-three_img-two{
+  height: 16em;
+  top: 5em
+}
+
+.container-all{
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+}
+
+.card-homepage{
+  background-color: #5b9d97;
+  margin: 2em 2em 2em;
+}
+
+.card-homepage-tittle{
+  display: flex;
+}
+
+.card-homepage-tittle {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-homepage-tittle_container{
+  margin-left: 1.8em;
+}
+.card-homepage-tittle_container-img{
+  margin-top: 2em;
+  font-size: 2em;
+  color: #411f4d
+}
+
+.card-homepage-tittle_container-tittle{
+  margin-left: 1.5em;
+  margin-top: 0.5em;
+  font-size: 1.5em;
+  color: #411f4d;
+}
+
+.card-homepage-tittle_container-description{
+  margin: 1em 2.2em 3em;
+  text-align: justify;
+}
+/*  Estilos Footer */
+.footer{
+  background-color: grey;
+  width: 100%;
+  height: 15vh;
+  text-align: center;
+  bottom: 0;
+  margin-bottom: 0;
+
+}
+.footer-container{
+  display: flex;
+}
+
+.footer-brand{
+  /* background-color: blue; */
+  width: 120px;
+}
+.footer-brand img{
+  margin-top: 2em;
+}
+
+.footer-contact{
+  /* background-color: red; */
+  width: 270px;
+}
+
+.footer-contact_list{
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-contact_list_item{
+  list-style: none;
+  margin-top: 0.2em;
+  margin-left: 3em;
+  text-align: left;
+
+}
+.footer-contact_list_item_text{
+  margin-left: 1em;
+}
