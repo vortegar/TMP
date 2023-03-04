@@ -34,7 +34,7 @@ export const Footer = () => {
           </div>
 
         </div>
-        <span>© 2023 Tu Marca Puede. All Rights Reserved</span>      
+        <span className="reserved">© 2023 Tu Marca Puede. All Rights Reserved</span>      
       </div>
     </>
     
