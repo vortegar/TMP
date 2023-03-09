@@ -7,7 +7,7 @@ export const Navbar = () => {
     <nav className="navbar">
       <div className="navbar-links">
       <Link to="/">
-        <img src="./Isotipo-02.png" alt="logo-tmp" />
+        <img src="./Isotipo-03.png" alt="logo-tmp" />
       </Link>
         <div className="navbar-links_routes">
           <ul>

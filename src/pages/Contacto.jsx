@@ -14,10 +14,10 @@ export const Contacto = () => {
             <div className="container-contact_information">
               <div className="container-contact_information_contenedor">
                 <div>
-                  <FontAwesomeIcon className="container-contact_information_text-img_img" icon={faWhatsapp}/>
+                  <FontAwesomeIcon className="container-contact_information_text-img_img " icon={faWhatsapp}/>
                 </div>
                 <div className="container-contact_information_text-img_text">
-                  <span className="container-contact_information_text-img_text-description">+56 9 999 999 91.</span>
+                  <span className="d-none d-sm-block">+56 9 999 999 91.</span>
                 </div>
               </div>
               <div>
@@ -25,7 +25,7 @@ export const Contacto = () => {
                   <FontAwesomeIcon className="container-contact_information_text-img_img" icon={faEnvelope}/>
                 </div>
                 <div className="container-contact_information_text-img_text">
-                  <span className="container-contact_information_text-img_text-description">tumarcapuede@gmail.com</span>
+                  <span className="d-none d-sm-block">tumarcapuede@gmail.com</span>
                 </div>
               </div>
             </div>
@@ -59,7 +59,7 @@ export const Contacto = () => {
               name="asunto"                          
             />
             <div className="btn-submit">
-                <input className="btn-submit_btn" type="submit" value="Enviar"/>
+              <button className="btn btn-container-contact">Enviar</button>
             </div>
           </form>
         </div>
