@@ -6,23 +6,23 @@ import { faEye, faGift, faHeart } from "@fortawesome/free-solid-svg-icons"
 export const HomePage = () => {
   return (
     <>
-      <div className="container-all">
-        <div className="container-one">
-          <h1 className="container_tittle-one">El Metodo TMP.</h1>
-          <span className="container_description-one">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero dolore, maiores dicta aliquam est non repellendus modi consequatur iusto consequuntur tenetur, enim numquam ea nobis distinctio impedit illo provident consectetur.</span>
+      <div className="container mt-5">
+        <div className="row">
+          <h1 className="fw-bolder fs-1">El Metodo <span className="text-title-tmp">TMP.</span></h1>
+          <span className="text-tmp">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero dolore, maiores dicta aliquam est non repellendus modi consequatur iusto consequuntur tenetur, enim numquam ea nobis distinctio impedit illo provident consectetur.</span>
         </div>
 
-        <div className="container-two">
-          <h1 className="container_tittle-two">UN SISTEMA ELABORADO POR PROFESIONALES</h1>
-          <span className="container_description-two">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis alias illum quo aperiam corrupti, corporis repudiandae quod, voluptate doloribus consequatur qui fugiat velit incidunt nostrum dolore fugit placeat tempore cupiditate.</span>
+        <div className="mt-5">
+          <h1 className="fw-bold fs-3">UN SISTEMA <span className="text-title-tmp">ELABORADO POR PROFESIONALES</span></h1>
+          <span className="text-tmp">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis alias illum quo aperiam corrupti, corporis repudiandae quod, voluptate doloribus consequatur qui fugiat velit incidunt nostrum dolore fugit placeat tempore cupiditate.</span>
         </div>
         
-        <div className="container-three">
-          <div>
-            <img className="container-three_img-one" src="./retrato-mujer.png" alt="" />
+        <div className="container my-5">
+          <div className="">
+            <img className="img-fluid position-relative img-person" src="./retrato-mujer.png" alt="" />
           </div>
           <div>
-            <img className="container-three_img-two" src="./blob-haikei.svg" alt="" />
+            <img className="position-absolute img-fluid img-backgroud" src="./blob-haikei.svg" alt="" />
           </div>
         </div>
 

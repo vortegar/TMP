@@ -1,42 +1,36 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
+:root {
+  --bs-purple : #411f4d;
+  --bs-green: #1d9995;    
+  --bs-yellow: #dbbe53;
+}
+
 body {
   margin: 0;
   font-family: 'Montserrat', sans-serif;
 }
-
 /* Estilos del NavBar */
+
+.img-backgroud{
+  z-index: -1;
+  top: 600px;
+  scale: calc(100%);
+  right: 10px;
+}
+
+.img-person{
+  scale: calc(120%);
+}
+
+.text-tmp{
+  text-align: justify;
+}
+
 .navbar{
   background-color: #1d9995;
   margin: 0;
   height: 9vh;
-}
-
-.navbar-links{
-  display: flex;
-  margin-left: 2em;
-}
-
-.navbar-links_routes{
-  line-height: 2.5em;
-  padding-left: 1em;
-}
-
-.navbar-brand{
-  color: white;
-}
-
-a{
-  margin-right: 5px;
-  text-decoration: none;
-  color: white;
-}
-a:nth-child(3){
-margin-right: 2em;
-}
-
-a:hover{
-  color: #5b9d97;
 }
 
 img{
@@ -45,24 +39,8 @@ img{
 }
 
 /*  Estilos de Home Page */
-
-.container-one, .container-two{
-  width: 38vh;
-  margin-left: 2em;
-  text-align: justify;
-}
-
-.container-two{
-  margin-bottom: 16em;
-}
-.container_tittle-one, .container_tittle-two{
-  margin-bottom: 0.2em;
-  font-size: 2em;
-}
-
-.container_tittle-two{
-  font-size: 1.5em;
-  margin-top: 1.5em;
+.text-title-tmp{
+  color: var(--bs-yellow)!important;
 }
 
 .container-three{
@@ -108,9 +86,8 @@ img{
   margin-left: 1.8em;
 }
 .card-homepage-tittle_container-img{
-  margin-top: 2em;
+  color: var(--bs-purple)!important;
   font-size: 2em;
-  color: #411f4d
 }
 
 .card-homepage-tittle_container-tittle{
